@@ -413,6 +413,7 @@ class IntroductionScreenState extends State<IntroductionScreen> {
 
     return Scaffold(
       backgroundColor: widget.globalBackgroundColor,
+      resizeToAvoidBottomInset: false,
       body: Stack(
         children: [
           Positioned.fill(
